@@ -1,0 +1,74 @@
+,id,name,bic,transaction_total_days,countries,logo
+0,ALLGEMEINE_SPARKASSE_OBEROSTERREICH_AG_ASPKAT2LXXX,Allgemeine Sparkasse Oberösterreich Bank AG,ASPKAT2LXXX,730,['AT'],https://cdn.nordigen.com/ais/KARNTNER_SPARKASSE_AG_KSPKAT2KXXX.png
+1,UNICREDIT_BKAUATWW,Bank Austria,BKAUATWW,730,['AT'],https://cdn.nordigen.com/ais/_UNICREDIT_BKAUATWW.png
+2,BANKHAUS_KRENTSCHKER_AND_CO_AG_KRECAT2GWIE,Bankhaus Krentschker and Co. AG,KRECAT2GWIE,730,['AT'],https://cdn.nordigen.com/ais/BANKHAUS_KRENTSCHKER_AND_CO_AG_KRECAT2GWIE.png
+3,BAWAG_BAWAATWW,BAWAG P.S.K.,BAWAATWW,730,['AT'],https://cdn.nordigen.com/ais/BAWAG_BAWAATWW.png
+4,BKS_BFKKAT2K,BKS Bank,BFKKAT2K,90,['AT'],https://cdn.nordigen.com/ais/BKS_BFKKAT2K.png
+5,BTV_BTVAAT22,BTV Bank,BTVAAT22,90,"['DE', 'AT']",https://cdn.nordigen.com/ais/BTV_BTVAAT22.png
+6,DIE_ZWEITE_WIENER_VEREINS_SPARCASSE_GIBAAT21XXX,Die Zweite Wiener Vereins-Sparcasse,GIBAAT21XXX,730,['AT'],https://cdn.nordigen.com/ais/KARNTNER_SPARKASSE_AG_KSPKAT2KXXX.png
+7,DORNBIRNER_SPARKASSE_BANK_AG_DOSPAT2DXXX,Dornbirner Sparkasse Bank AG,DOSPAT2DXXX,730,['AT'],https://cdn.nordigen.com/ais/KARNTNER_SPARKASSE_AG_KSPKAT2KXXX.png
+8,ERSTE_BANK_DER_OESTERREICHISCHEN_SPARKASSEN_AG_GIBAATWWXXX,Erste Bank der oesterreichischen Sparkassen AG,GIBAATWWXXX,730,['AT'],https://cdn.nordigen.com/ais/KARNTNER_SPARKASSE_AG_KSPKAT2KXXX.png
+9,ERSTE_GROUP_BANK_AG_GIBAATWGXXX,Erste Group Bank AG,GIBAATWGXXX,730,['AT'],https://cdn.nordigen.com/ais/KARNTNER_SPARKASSE_AG_KSPKAT2KXXX.png
+10,HYPO_OBLAAT2L,Hypo Oberösterreich,OBLAAT2L,90,['AT'],https://cdn.nordigen.com/ais/HYPO_OBLAAT2L.png
+11,ING_INGBATWW,ING,INGBATWW,730,['AT'],https://cdn.nordigen.com/ais/ING_INGDDEFF.png
+12,KLARNA_KLRNSESS,Klarna Bank AB,KLRNSESS,730,"['SE', 'FI', 'DE', 'DK', 'AT', 'GB', 'NL', 'NO']",https://cdn.nordigen.com/ais/KLARNA_KLRNSESS.png
+13,KREMSER_BANK_UND_SPARKASSEN_AG_SPKDAT21XXX,KREMSER BANK UND SPARKASSEN AG,SPKDAT21XXX,730,['AT'],https://cdn.nordigen.com/ais/KARNTNER_SPARKASSE_AG_KSPKAT2KXXX.png
+14,KARNTNER_SPARKASSE_AG_KSPKAT2KXXX,Kärntner Sparkasse AG,KSPKAT2KXXX,730,['AT'],https://cdn.nordigen.com/ais/KARNTNER_SPARKASSE_AG_KSPKAT2KXXX.png
+15,LIENZER_SPARKASSE_AG_LISPAT21XXX,Lienzer Sparkasse AG,LISPAT21XXX,730,['AT'],https://cdn.nordigen.com/ais/KARNTNER_SPARKASSE_AG_KSPKAT2KXXX.png
+16,N26_NTSBDEB1,N26 Bank,NTSBDEB1,730,"['NO', 'SE', 'FI', 'DK', 'EE', 'LV', 'LT', 'GB', 'NL', 'CZ', 'ES', 'PL', 'BE', 'DE', 'AT', 'BG', 'HR', 'CY', 'FR', 'GR', 'HU', 'IS', 'IE', 'IT', 'LI', 'LU', 'MT', 'PT', 'RO', 'SK', 'SI']",https://cdn.nordigen.com/ais/N26_NTSBDEB1.png
+17,OBERBANK_OBKLHUHB,Oberbank,OBKLHUHB,90,"['AT', 'DE', 'CZ', 'SK', 'HU']",https://cdn.nordigen.com/ais/OBERBANK_OBKLHUHB_1.png
+18,PAYPAL_PPLXLULL,PayPal,PPLXLULL,90,"['NO', 'SE', 'FI', 'DK', 'EE', 'LV', 'LT', 'GB', 'NL', 'CZ', 'ES', 'PL', 'BE', 'DE', 'AT', 'BG', 'HR', 'CY', 'FR', 'GR', 'HU', 'IS', 'IE', 'IT', 'LI', 'LU', 'MT', 'PT', 'RO', 'SK', 'SI']",https://cdn.nordigen.com/ais/PAYPAL_PPLXLULL.png
+19,RAIFFEISEN_AT_RZBAATWW,Raiffeisen Bank International,RZBAATWW,730,['AT'],https://cdn.nordigen.com/ais/RAIFFEISEN_AT_RZBAATWW.png
+20,REVOLUT_REVOGB21,Revolut,REVOGB21,730,"['NO', 'SE', 'FI', 'DK', 'EE', 'LV', 'LT', 'GB', 'NL', 'CZ', 'ES', 'PL', 'BE', 'DE', 'AT', 'BG', 'HR', 'CY', 'FR', 'GR', 'HU', 'IS', 'IE', 'IT', 'LI', 'LU', 'MT', 'PT', 'RO', 'SK', 'SI']",https://cdn.nordigen.com/ais/REVOLUT_REVOGB21.png
+21,SALZBURGER_SPARKASSE_BANK_AG_SBGSAT2SXXX,Salzburger Sparkasse Bank AG,SBGSAT2SXXX,730,['AT'],https://cdn.nordigen.com/ais/KARNTNER_SPARKASSE_AG_KSPKAT2KXXX.png
+22,SPARDABANK_SVIEAT21,Sparda-Bank,SVIEAT21,90,['AT'],https://cdn.nordigen.com/ais/SPARDABANK_SVIEAT21.png
+23,SPARKASSE_BADEN_SPBDAT21,Sparkasse Baden,SPBDAT21,730,['AT'],https://cdn.nordigen.com/ais/KARNTNER_SPARKASSE_AG_KSPKAT2KXXX.png
+24,SPARKASSE_BLUDENZ_BANK_AG_SSBLAT21,Sparkasse Bludenz Bank AG,SSBLAT21,730,['AT'],https://cdn.nordigen.com/ais/KARNTNER_SPARKASSE_AG_KSPKAT2KXXX.png
+25,SPARKASSE_BREGENZ_BANK_AG_SPBRAT2B,Sparkasse Bregenz Bank AG,SPBRAT2B,730,['AT'],https://cdn.nordigen.com/ais/KARNTNER_SPARKASSE_AG_KSPKAT2KXXX.png
+26,SPARKASSE_DER_GEMEINDE_EGG_SPEGAT21,Sparkasse der Gemeinde Egg,SPEGAT21,730,['AT'],https://cdn.nordigen.com/ais/KARNTNER_SPARKASSE_AG_KSPKAT2KXXX.png
+27,SPARKASSE_DER_STADT_AMSTETTEN_AG_SPAMAT21,Sparkasse der Stadt Amstetten AG,SPAMAT21,730,['AT'],https://cdn.nordigen.com/ais/KARNTNER_SPARKASSE_AG_KSPKAT2KXXX.png
+28,SPARKASSE_DER_STADT_FELDKIRCH_SPFKAT2B,Sparkasse der Stadt Feldkirch,SPFKAT2B,730,['AT'],https://cdn.nordigen.com/ais/KARNTNER_SPARKASSE_AG_KSPKAT2KXXX.png
+29,SPARKASSE_DER_STADT_KITZBUHEL_SPKIAT2K,Sparkasse der Stadt Kitzbühel,SPKIAT2K,730,['AT'],https://cdn.nordigen.com/ais/KARNTNER_SPARKASSE_AG_KSPKAT2KXXX.png
+30,SPARKASSE_EFERDING_PEUERBACH_WAIZENKIRCHEN_SPPBAT21,Sparkasse Eferding-Peuerbach-Waizenkirchen,SPPBAT21,730,['AT'],https://cdn.nordigen.com/ais/KARNTNER_SPARKASSE_AG_KSPKAT2KXXX.png
+31,SPARKASSE_FELDKIRCHEN_KARNTEN_SPFNAT21,Sparkasse Feldkirchen/Kärnten,SPFNAT21,730,['AT'],https://cdn.nordigen.com/ais/KARNTNER_SPARKASSE_AG_KSPKAT2KXXX.png
+32,SPARKASSE_FRANKENMARKT_AG_SPFRAT21,Sparkasse Frankenmarkt AG,SPFRAT21,730,['AT'],https://cdn.nordigen.com/ais/KARNTNER_SPARKASSE_AG_KSPKAT2KXXX.png
+33,SPARKASSE_HAINBURG_BRUCK_NEUSIEDL_AG_SPHBAT21,Sparkasse Hainburg-Bruck-Neusiedl AG,SPHBAT21,730,['AT'],https://cdn.nordigen.com/ais/KARNTNER_SPARKASSE_AG_KSPKAT2KXXX.png
+34,SPARKASSE_HAUGSDORF_SPHAAT21,Sparkasse Haugsdorf,SPHAAT21,730,['AT'],https://cdn.nordigen.com/ais/KARNTNER_SPARKASSE_AG_KSPKAT2KXXX.png
+35,SPARKASSE_HERZOGENBURG_NEULENGBACH_BANK_AG_SPHEAT21,Sparkasse Herzogenburg-Neulengbach Bank AG,SPHEAT21,730,['AT'],https://cdn.nordigen.com/ais/KARNTNER_SPARKASSE_AG_KSPKAT2KXXX.png
+36,SPARKASSE_HORN_RAVELSBACH_KIRCHBERG_AG_SPHNAT21,Sparkasse Horn-Ravelsbach-Kirchberg AG,SPHNAT21,730,['AT'],https://cdn.nordigen.com/ais/KARNTNER_SPARKASSE_AG_KSPKAT2KXXX.png
+37,SPARKASSE_IMST_AG_SPIMAT21,Sparkasse Imst AG,SPIMAT21,730,['AT'],https://cdn.nordigen.com/ais/KARNTNER_SPARKASSE_AG_KSPKAT2KXXX.png
+38,SPARKASSE_KORNEUBURG_AG_SSKOAT21,Sparkasse Korneuburg AG,SSKOAT21,730,['AT'],https://cdn.nordigen.com/ais/KARNTNER_SPARKASSE_AG_KSPKAT2KXXX.png
+39,SPARKASSE_KUFSTEIN_TIROLER_SPARKASSE_VON_1877_SPKUAT22,"Sparkasse Kufstein, Tiroler Sparkasse von 1877",SPKUAT22,730,['AT'],https://cdn.nordigen.com/ais/KARNTNER_SPARKASSE_AG_KSPKAT2KXXX.png
+40,SPARKASSE_LAMBACH_BANK_AG_SPLAAT21,Sparkasse Lambach Bank AG,SPLAAT21,730,['AT'],https://cdn.nordigen.com/ais/KARNTNER_SPARKASSE_AG_KSPKAT2KXXX.png
+41,SPARKASSE_LANGENLOIS_SPLSAT21,Sparkasse Langenlois,SPLSAT21,730,['AT'],https://cdn.nordigen.com/ais/KARNTNER_SPARKASSE_AG_KSPKAT2KXXX.png
+42,SPARKASSE_MITTERSILL_BANK_AG_SPMIAT21,Sparkasse Mittersill Bank AG,SPMIAT21,730,['AT'],https://cdn.nordigen.com/ais/KARNTNER_SPARKASSE_AG_KSPKAT2KXXX.png
+43,SPARKASSE_MUEHLVIERTEL_WEST_BANK_AG_SMWRAT21XXX,Sparkasse Muehlviertel-West Bank AG,SMWRAT21XXX,730,['AT'],https://cdn.nordigen.com/ais/KARNTNER_SPARKASSE_AG_KSPKAT2KXXX.png
+44,SPARKASSE_MURZZUSCHLAG_AG_SPMZAT21XXX,Sparkasse Mürzzuschlag AG,SPMZAT21XXX,730,['AT'],https://cdn.nordigen.com/ais/KARNTNER_SPARKASSE_AG_KSPKAT2KXXX.png
+45,SPARKASSE_NEUHOFEN_BANK_AG_SPNKAT21,Sparkasse Neuhofen Bank AG,SPNKAT21,730,['AT'],https://cdn.nordigen.com/ais/KARNTNER_SPARKASSE_AG_KSPKAT2KXXX.png
+46,SPARKASSE_NEUNKIRCHEN_SPNGAT21,Sparkasse Neunkirchen,SPNGAT21,730,['AT'],https://cdn.nordigen.com/ais/KARNTNER_SPARKASSE_AG_KSPKAT2KXXX.png
+47,SPARKASSE_NIEDEROESTERREICH_MITTE_WEST_AG_SPSPAT21XXX,Sparkasse Niederoesterreich Mitte West Ag,SPSPAT21XXX,730,['AT'],https://cdn.nordigen.com/ais/KARNTNER_SPARKASSE_AG_KSPKAT2KXXX.png
+48,SPARKASSE_POTTENSTEIN_NO_SPPOAT21,Sparkasse Pottenstein N.Ö.,SPPOAT21,730,['AT'],https://cdn.nordigen.com/ais/KARNTNER_SPARKASSE_AG_KSPKAT2KXXX.png
+49,SPARKASSE_POYSDORF_AG_SPPDAT21,Sparkasse Poysdorf AG,SPPDAT21,730,['AT'],https://cdn.nordigen.com/ais/KARNTNER_SPARKASSE_AG_KSPKAT2KXXX.png
+50,SPARKASSE_PREGARTEN_UNTERWEISSENBACH_AG_SPPRAT21,Sparkasse Pregarten - Unterweißenbach AG,SPPRAT21,730,['AT'],https://cdn.nordigen.com/ais/KARNTNER_SPARKASSE_AG_KSPKAT2KXXX.png
+51,SPARKASSE_POLLAU_AG_SPPLAT21,Sparkasse Pöllau AG,SPPLAT21,730,['AT'],https://cdn.nordigen.com/ais/KARNTNER_SPARKASSE_AG_KSPKAT2KXXX.png
+52,SPARKASSE_RATTENBERG_BANK_AG_SPRTAT21,Sparkasse Rattenberg Bank AG,SPRTAT21,730,['AT'],https://cdn.nordigen.com/ais/KARNTNER_SPARKASSE_AG_KSPKAT2KXXX.png
+53,SPARKASSE_REUTTE_AG_SPREAT21,Sparkasse Reutte AG,SPREAT21,730,['AT'],https://cdn.nordigen.com/ais/KARNTNER_SPARKASSE_AG_KSPKAT2KXXX.png
+54,SPARKASSE_RIED_IM_INNKREIS_HAAG_AM_HAUSRUCK_SPRHAT21,Sparkasse Ried im Innkreis-Haag am Hausruck,SPRHAT21,730,['AT'],https://cdn.nordigen.com/ais/KARNTNER_SPARKASSE_AG_KSPKAT2KXXX.png
+55,SPARKASSE_SALZKAMMERGUT_AG_SKBIAT21,Sparkasse Salzkammergut AG,SKBIAT21,730,['AT'],https://cdn.nordigen.com/ais/KARNTNER_SPARKASSE_AG_KSPKAT2KXXX.png
+56,SPARKASSE_SCHEIBBS_AG_SPSBAT21,Sparkasse Scheibbs AG,SPSBAT21,730,['AT'],https://cdn.nordigen.com/ais/KARNTNER_SPARKASSE_AG_KSPKAT2KXXX.png
+57,SPARKASSE_SCHWAZ_AG_SPSCAT22,Sparkasse Schwaz AG,SPSCAT22,730,['AT'],https://cdn.nordigen.com/ais/KARNTNER_SPARKASSE_AG_KSPKAT2KXXX.png
+58,SPARKASSE_VOITSBERG_KOEFLACH_BANKAKTIENGESELLSCHAFT_SPVOAT21XXX,Sparkasse Voitsberg-Köflach Bankaktiengesellschaft,SPVOAT21XXX,730,['AT'],https://cdn.nordigen.com/ais/KARNTNER_SPARKASSE_AG_KSPKAT2KXXX.png
+59,STEIERMARKISCHE_BANK_UND_SPARKASSEN_AG_STSPAT2GXXX,Steiermärkische Bank und Sparkassen AG,STSPAT2GXXX,730,['AT'],https://cdn.nordigen.com/ais/KARNTNER_SPARKASSE_AG_KSPKAT2KXXX.png
+60,STRIPE_STPUIE21,Stripe,STPUIE21,730,"['NO', 'SE', 'FI', 'DK', 'EE', 'LV', 'LT', 'GB', 'NL', 'CZ', 'ES', 'PL', 'BE', 'DE', 'AT', 'BG', 'HR', 'CY', 'FR', 'GR', 'HU', 'IS', 'IE', 'IT', 'LI', 'LU', 'MT', 'PT', 'RO', 'SK', 'SI']",https://cdn.nordigen.com/ais/STRIPE_STPUIE21.png
+61,VOLKSBANK_KARNTEN_VBOEATWW,Volksbank Kärnten,VBOEATWW,90,['AT'],https://cdn.nordigen.com/ais/VOLKSBANK_KARNTEN_VBOEATWW.png
+62,VOLKSBANK_NIEDEROSTERREICH_VBOEATWW,Volksbank Niederösterreich,VBOEATWW,90,['AT'],https://cdn.nordigen.com/ais/VOLKSBANK_NIEDEROSTERREICH_VBOEATWW.png
+63,VOLKSBANK_OBEROSTERREICH_VBOEATWW,Volksbank Oberösterreich,VBOEATWW,90,['AT'],https://cdn.nordigen.com/ais/VOLKSBANK_OBEROSTERREICH_VBOEATWW.png
+64,VOLKSBANK_SALZBURG_VBOEATWW,Volksbank Salzburg,VBOEATWW,90,['AT'],https://cdn.nordigen.com/ais/VOLKSBANK_SALZBURG_VBOEATWW.png
+65,VOLKSBANK_STEIERMARK_VBOEATWW,Volksbank Steiermark,VBOEATWW,90,['AT'],https://cdn.nordigen.com/ais/VOLKSBANK_STEIERMARK_VBOEATWW.png
+66,VOLKSBANK_TIROL_VBOEATWW,Volksbank Tirol,VBOEATWW,90,['AT'],https://cdn.nordigen.com/ais/VOLKSBANK_TIROL_VBOEATWW.png
+67,VOLKSBANK_VORARLBERG_VBOEATWW,Volksbank Vorarlberg,VBOEATWW,90,['AT'],https://cdn.nordigen.com/ais/VOLKSBANK_VORARLBERG_VBOEATWW.png
+68,VOLKSBANK_WIEN_VBOEATWW,Volksbank Wien,VBOEATWW,90,['AT'],https://cdn.nordigen.com/ais/VOLKSBANK_WIEN_VBOEATWW.png
+69,WALDVIERTLER_SPARKASSE_BANK_AG_SPWTAT21,Waldviertler Sparkasse Bank AG,SPWTAT21,730,['AT'],https://cdn.nordigen.com/ais/KARNTNER_SPARKASSE_AG_KSPKAT2KXXX.png
+70,WIENER_NEUSTADTER_SPARKASSE_WINSATWNXXX,Wiener Neustädter Sparkasse,WINSATWNXXX,730,['AT'],https://cdn.nordigen.com/ais/KARNTNER_SPARKASSE_AG_KSPKAT2KXXX.png
+71,WISE_TRWIGB22,Wise,TRWIGB22,730,"['NO', 'SE', 'FI', 'DK', 'EE', 'LV', 'LT', 'GB', 'NL', 'CZ', 'ES', 'PL', 'BE', 'DE', 'AT', 'BG', 'HR', 'CY', 'FR', 'GR', 'HU', 'IS', 'IE', 'IT', 'LI', 'LU', 'MT', 'PT', 'RO', 'SK', 'SI']",https://cdn.nordigen.com/ais/WISE_TRWIGB22.png
+72,OSTERREICHISCHE_ARZTE_UND_APOTHEKERBANK_BWFBATW1,Österreichische Ärzte- und Apothekerbank,BWFBATW1,90,['AT'],https://cdn.nordigen.com/ais/OSTERREICHISCHE_ARZTE_UND_APOTHEKERBANK_BWFBATW1.png
