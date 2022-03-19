@@ -7,6 +7,7 @@ from nordigen import NordigenClient
 import requests
 # from PIL import Image
 from st_aggrid import AgGrid, GridOptionsBuilder
+import altair as alt
 
 
 def read_wb_country(iso2code):
@@ -83,13 +84,21 @@ for i in range(df_global.shape[0]):
         if len(df_global['bic'][i]) == 8:
                 df_global['bic'][i] = df_global['bic'][i] + 'XXX'
 
-df_global = df_global.merge(df_biclei, left_on='bic',right_on='BIC',how='left')
+df_global = df_global.merge(df_biclei, left_on='bic', right_on='BIC', how='left')
 
-
-gb=GridOptionsBuilder.from_dataframe(df_global)
+gb = GridOptionsBuilder.from_dataframe(df_global)
 gb.configure_pagination()
 gb.configure_side_bar()
 gb.configure_default_column(groupable=True)
-gridOptions=gb.build()
-AgGrid(df_global, gridOptions=gridOptions,enable_enterprise_modules=True)
+gridOptions = gb.build()
+AgGrid(df_global, gridOptions=gridOptions, enable_enterprise_modules=True)
 
+s = df_global.groupby(['countryname'])['countryname'].count()
+source = pd.DataFrame({
+        'a': options,
+        'b': s})
+c = alt.Chart(source).mark_bar().encode(
+        x='a',
+        y='b')
+
+st.altair_chart(c)
