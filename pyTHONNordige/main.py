@@ -8,6 +8,7 @@ import requests
 # from PIL import Image
 from st_aggrid import AgGrid, GridOptionsBuilder
 import altair as alt
+import io
 
 
 def read_wb_country(iso2code):
@@ -26,13 +27,18 @@ def create_df_Country_institutions(iso2code):
         df_institutions = df_institutions.assign(countryname=df_wb_country['name'][0])
         return df_institutions
 
-st.set_page_config(layout='wide')
-st.title ("Nordigen Institutions")
 
-countries = ["AT","BE","BG","HR","CY","CZ","DK","EE","FI","FR","DE","GR","HU",
-             "IE","IS","IT","LV","LT","LI","LU","MT","NL","NO","PL","PT","RO","SK",
-             "SI","ES","SW","UK"]
-df_biclei = pd.read_csv(r'C:\Users\pinizzot\Downloads\bic_lei_gleif_v1_monthly_full_20220225.csv')
+st.set_page_config(layout='wide')
+st.title("Nordigen Institutions")
+
+countries = ["AT", "BE", "BG", "HR", "CY", "CZ", "DK", "EE", "FI", "FR", "DE", "GR", "HU",
+             "IE", "IS", "IT", "LV", "LT", "LI", "LU", "MT", "NL", "NO", "PL", "PT", "RO", "SK",
+             "SI", "ES", "SW", "UK"]
+# df_biclei = pd.read_csv(r'C:\Users\pinizzot\Downloads\bic_lei_gleif_v1_monthly_full_20220225.csv')
+url = "https://raw.githubusercontent.com/Fpini/pyTHONNordige/master/pyTHONNordige/bic_lei_gleif_v1_monthly_full_20220225.csv"  # Make sure the url is the raw version of the file on GitHub
+download = requests.get(url).content
+# Reading the downloaded content and turning it into a pandas dataframe
+df_biclei = pd.read_csv(io.StringIO(download.decode('utf-8')))
 
 with st.sidebar.form("Sidebar form"):
         options = st.multiselect("Countries", countries, default="BE")
