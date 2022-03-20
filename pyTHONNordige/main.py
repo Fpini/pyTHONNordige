@@ -33,7 +33,7 @@ st.title("Nordigen Institutions")
 
 countries = ["AT", "BE", "BG", "HR", "CY", "CZ", "DK", "EE", "FI", "FR", "DE", "GR", "HU",
              "IE", "IS", "IT", "LV", "LT", "LI", "LU", "MT", "NL", "NO", "PL", "PT", "RO", "SK",
-             "SI", "ES", "SW", "UK"]
+             "SI", "ES", "SE", "UK"]
 # df_biclei = pd.read_csv(r'C:\Users\pinizzot\Downloads\bic_lei_gleif_v1_monthly_full_20220225.csv')
 url = "https://raw.githubusercontent.com/Fpini/pyTHONNordige/master/pyTHONNordige/bic_lei_gleif_v1_monthly_full_20220225.csv"  # Make sure the url is the raw version of the file on GitHub
 download = requests.get(url).content
@@ -91,14 +91,14 @@ for i in range(df_global.shape[0]):
         if len(df_global['bic'][i]) == 8:
                 df_global.loc[i, 'bic'] = bicvalue + 'XXX'
 df_global = df_global.merge(df_biclei, left_on='bic', right_on='BIC', how='left')
-
+#
 gb = GridOptionsBuilder.from_dataframe(df_global)
 gb.configure_pagination()
 gb.configure_side_bar()
 gb.configure_default_column(groupable=True)
 gridOptions = gb.build()
 AgGrid(df_global, gridOptions=gridOptions, enable_enterprise_modules=True)
-
+#
 s = df_global.groupby(['countryname'])['countryname'].count()
 source = pd.DataFrame({
         'a': options,
