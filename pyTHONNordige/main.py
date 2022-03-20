@@ -81,9 +81,9 @@ with st.sidebar.form("Sidebar form"):
 # st.image(im, caption=df_global['name'][0])
 
 for i in range(df_global.shape[0]):
+        bicvalue = df_global['bic'][i]
         if len(df_global['bic'][i]) == 8:
-                df_global['bic'][i] = df_global['bic'][i] + 'XXX'
-
+                df_global.loc[i, 'bic'] = bicvalue + 'XXX'
 df_global = df_global.merge(df_biclei, left_on='bic', right_on='BIC', how='left')
 
 gb = GridOptionsBuilder.from_dataframe(df_global)
