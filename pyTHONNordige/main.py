@@ -28,17 +28,21 @@ def create_df_Country_institutions(iso2code):
         return df_institutions
 
 
-st.set_page_config(layout='wide')
+st.set_page_config(layout='wide', page_icon="random")
 st.title("Nordigen Institutions")
 
 countries = ["AT", "BE", "BG", "HR", "CY", "CZ", "DK", "EE", "FI", "FR", "DE", "GR", "HU",
              "IE", "IS", "IT", "LV", "LT", "LI", "LU", "MT", "NL", "NO", "PL", "PT", "RO", "SK",
              "SI", "ES", "SE", "GB"]
 # df_biclei = pd.read_csv(r'C:\Users\pinizzot\Downloads\bic_lei_gleif_v1_monthly_full_20220225.csv')
-url = "https://raw.githubusercontent.com/Fpini/pyTHONNordige/master/pyTHONNordige/bic_lei_gleif_v1_monthly_full_20220225.csv"  # Make sure the url is the raw version of the file on GitHub
-download = requests.get(url).content
-# Reading the downloaded content and turning it into a pandas dataframe
-df_biclei = pd.read_csv(io.StringIO(download.decode('utf-8')))
+if "GLEIF-BIC_LEI" not in st.session_state:
+        url = "https://raw.githubusercontent.com/Fpini/pyTHONNordige/master/pyTHONNordige/bic_lei_gleif_v1_monthly_full_20220225.csv"  # Make sure the url is the raw version of the file on GitHub
+        download = requests.get(url).content
+        # Reading the downloaded content and turning it into a pandas dataframe
+        df_biclei = pd.read_csv(io.StringIO(download.decode('utf-8')))
+        st.session_state["GLEIF-BIC_LEI"] = df_biclei
+else:
+        df_biclei = st.session_state["GLEIF-BIC_LEI"]
 
 with st.sidebar.form("Sidebar form"):
         options = st.multiselect("Countries", countries, default="BE")
