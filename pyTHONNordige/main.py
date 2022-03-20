@@ -33,7 +33,7 @@ st.title("Nordigen Institutions")
 
 countries = ["AT", "BE", "BG", "HR", "CY", "CZ", "DK", "EE", "FI", "FR", "DE", "GR", "HU",
              "IE", "IS", "IT", "LV", "LT", "LI", "LU", "MT", "NL", "NO", "PL", "PT", "RO", "SK",
-             "SI", "ES", "SE", "UK"]
+             "SI", "ES", "SE", "GB"]
 # df_biclei = pd.read_csv(r'C:\Users\pinizzot\Downloads\bic_lei_gleif_v1_monthly_full_20220225.csv')
 url = "https://raw.githubusercontent.com/Fpini/pyTHONNordige/master/pyTHONNordige/bic_lei_gleif_v1_monthly_full_20220225.csv"  # Make sure the url is the raw version of the file on GitHub
 download = requests.get(url).content
