@@ -35,7 +35,7 @@ countries = ["AT","BE","BG","HR","CY","CZ","DK","EE","FI","FR","DE","GR","HU",
 df_biclei = pd.read_csv(r'C:\Users\pinizzot\Downloads\bic_lei_gleif_v1_monthly_full_20220225.csv')
 
 with st.sidebar.form("Sidebar form"):
-        options = st.multiselect("Countries", countries, default="IT")
+        options = st.multiselect("Countries", countries, default="BE")
         sb_Country = st.form_submit_button("Submit")
         token = st.secrets["TOKEN"]
         client = NordigenClient(secret_id=st.secrets["SECRET"],
