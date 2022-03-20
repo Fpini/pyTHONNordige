@@ -1,3 +1,4 @@
 streamlit
 nordigen
+st_aggrid
 altair
