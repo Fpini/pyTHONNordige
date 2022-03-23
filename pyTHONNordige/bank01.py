@@ -44,18 +44,18 @@ if st.button("Go on"):
     st.write("ref_id_2: ", ref_id)
     # Get account id after you have completed authorization with a bank
     # requisition_id can be gathered from initialize_session response
-    accounts = client.requisition.get_requisition_by_id(
-        requisition_id=requisition_id
-    )
-    st.write("accounts :", accounts)
+    try:
+        accounts = client.requisition.get_requisition_by_id(
+            requisition_id=requisition_id
+        )
+    except:
+        st.write("accounts :", accounts)
     st.write(type(accounts))
     # Get account id from the list.
     try:
         account_id = accounts["accounts"][0]
-    except IndexError:
-        raise ValueError(
-            "Account list is empty. Make sure you have completed authorization with a bank."
-        )
+    except:
+        st.write(err.code)
 
     # Create account instance and provide your account id from previous step
     account = client.account_api(id=account_id)
