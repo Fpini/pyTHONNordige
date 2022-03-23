@@ -39,13 +39,13 @@ if st.button("Go on"):
     query_params = st.experimental_get_query_params()
     st.write("query_params", query_params)
     st.write("query_params_1")
-    requisition_id = init.requisition_id
+    requisition_id = query_params[0]
     st.write("init 1 ", init)
     st.write("ref_id_2: ", ref_id)
     # Get account id after you have completed authorization with a bank
     # requisition_id can be gathered from initialize_session response
     accounts = client.requisition.get_requisition_by_id(
-        requisition_id=init.requisition_id
+        requisition_id=requisition_id
     )
     st.write("accounts :", accounts)
     st.write(type(accounts))
