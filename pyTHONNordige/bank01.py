@@ -14,10 +14,6 @@ token_data = client.generate_token()
 st.write("token: ", token)
 new_token = client.exchange_token(token_data["refresh"])
 # Get institution id by bank name and country
-# institution_id = client.institution.get_institution_id_by_name(
-#    country="IT",
-#    institution="Unicredit"
-# )
 institution_id = "SANDBOXFINANCE_SFIN0000"
 st.write("institution_id: ", institution_id)
 # Initialize bank session
@@ -39,6 +35,10 @@ link = init.link  # bank authorization link
 st.write("link: ", link)
 
 if st.button("Go on"):
+    st.write("query_params_0")
+    query_params = st.experimental_get_query_params()
+    st.write("query_params", query_params)
+    st.write("query_params_1")
     requisition_id = init.requisition_id
     st.write("init 1 ", init)
     st.write("ref_id_2: ", ref_id)
