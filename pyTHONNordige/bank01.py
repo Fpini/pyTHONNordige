@@ -49,13 +49,13 @@ if st.button("Go on"):
             requisition_id=requisition_id
         )
     except:
-        st.write("accounts :", accounts)
-    st.write(type(accounts))
+        st.write("err_code", err_code)
+
     # Get account id from the list.
     try:
         account_id = accounts["accounts"][0]
     except:
-        st.write(err.code)
+        st.write("accounts :", accounts)
 
     # Create account instance and provide your account id from previous step
     account = client.account_api(id=account_id)
