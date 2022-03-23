@@ -45,8 +45,7 @@ if st.button("Go on"):
     # Get account id after you have completed authorization with a bank
     # requisition_id can be gathered from initialize_session response
     accounts = client.requisition.get_requisition_by_id(
-        #        requisition_id=init.requisition_id
-        requisition_id=ref_id
+        requisition_id=init.requisition_id
     )
     st.write("accounts :", accounts)
     st.write(type(accounts))
