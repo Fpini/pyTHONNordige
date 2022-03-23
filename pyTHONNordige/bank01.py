@@ -27,8 +27,8 @@ init = client.initialize_session(
     # institution id
     institution_id=institution_id,
     # redirect url after successful authentication
-    #    redirect_uri="https://share.streamlit.io/fpini/pythonnordige/pyTHONNordige/bank01.py",
-    redirect_uri="https://localhost:8501",
+    redirect_uri="https://share.streamlit.io/fpini/pythonnordige/pyTHONNordige/bank01.py",
+    #    redirect_uri="https://localhost:8501",
     # additional layer of unique ID defined by you
     reference_id=ref_id
 )
