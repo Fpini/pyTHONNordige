@@ -3,6 +3,7 @@ from uuid import uuid4
 from nordigen import NordigenClient
 
 import streamlit as st
+import requests
 
 #
 token = st.secrets["TOKEN"]
@@ -20,28 +21,32 @@ new_token = client.exchange_token(token_data["refresh"])
 institution_id = "SANDBOXFINANCE_SFIN0000"
 st.write("institution_id: ", institution_id)
 # Initialize bank session
+ref_id = str(uuid4())
+st.write("ref_id: ", ref_id)
 init = client.initialize_session(
     # institution id
     institution_id=institution_id,
     # redirect url after successful authentication
-    redirect_uri="https://share.streamlit.io/fpini/pythonnordige/pyTHONNordige/bank01.py",
-    #    redirect_uri="https://localhost:8501",
+    #    redirect_uri="https://share.streamlit.io/fpini/pythonnordige/pyTHONNordige/bank01.py",
+    redirect_uri="https://localhost:8501",
     # additional layer of unique ID defined by you
-    reference_id=str(uuid4())
+    reference_id=ref_id
 )
 
+st.write("init", init)
 # Get requisition_id and link to initiate authorization process with a bank
 link = init.link  # bank authorization link
 st.write("link: ", link)
 
 if st.button("Go on"):
     requisition_id = init.requisition_id
-    st.write("requisition_id ", requisition_id)
-
+    st.write("init 1 ", init)
+    st.write("ref_id_2: ", ref_id)
     # Get account id after you have completed authorization with a bank
     # requisition_id can be gathered from initialize_session response
     accounts = client.requisition.get_requisition_by_id(
-        requisition_id=requisition_id
+        #        requisition_id=init.requisition_id
+        requisition_id=ref_id
     )
     st.write("accounts :", accounts)
     st.write(type(accounts))
